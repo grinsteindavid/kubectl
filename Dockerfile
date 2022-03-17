@@ -1,4 +1,5 @@
-FROM alpine
+#FROM alpine
+FROM amazon/aws-cli
 
 LABEL version="2.0.0"
 LABEL name="kubectl"
